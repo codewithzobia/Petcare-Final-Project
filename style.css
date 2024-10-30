@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    box-shadow: 0 1px 100px gainsboro;
+}
+@media only screen and (max-width: 992px) {
+    .groom-div{
+         margin-left: 4% !important;
+    }
+    .pet-card{
+         width: 100% !important;
+    }
+    .doctors{
+         width: 100% !important;
+    }
+    .card-doctor{
+         width: 100% !important;
+    }
+    .website{
+         width: 100% !important;
+    }
+    .company{
+         width: 100% !important;
+    }
+    .lead{
+         font-size: 1rem !important;
+    }
+    .inputs{
+         font-size: 8px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .groom-div{
+         margin-left: 4% !important;
+    }
+    .pets{
+         font-size: 2rem !important;
+    }
+    .best{
+         font-size: 2rem !important;
+    }
+    .commit{
+         font-size: 2rem !important;
+    }
+    .pet-card{
+         width: 100% !important;
+    }
+    .photo{
+         font-size: 2rem !important;
+    }
+    
+    .team{
+         font-size: 2rem !important;
+    }
+    .blog{
+         font-size: 2rem !important;
+    }
+    .call-us{
+         font-size: 2rem !important;
+    }
+    .website{
+         width: 100%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .inputs{
+         font-size: 5px !important;
+    }
+    .number{
+         width: 40% !important;
+    }
+    
+    .call-us{
+         font-size: 1.2rem !important;
+    }
+    .blog{
+         font-size: 1.2rem !important;
+    }
+    .team{
+         font-size: 1.2rem !important;
+    }
+    .photo{
+         font-size: 1.2rem !important;
+    }
+    .commit{
+         font-size: 1.2rem !important;
+    }
+    .best{
+         font-size: 1.2rem !important;
+    }
+    .pets{
+         font-size: 1.2rem !important;
+    }
+    .contact{
+         font-size: 15px !important;
+    }
+}
+.navbar-ul>li>a{
+    font-family: 'Muli' !important;
+}
+.nav-link:hover{
+    color: #FF2121 !important;
+    transition: .5s;
+}
+.phones{
+    background-color: #ff2121 !important;
+}
+#submenu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    box-shadow: 0 0 1px gainsboro;
+    width: 330%;
+    transition: 0.8s;
+}
+#submenu>li{
+    background-color: white !important;
+    width: 100%;
+}
+li:hover ul#submenu{
+    opacity: 1;
+    top: 129%;
+    visibility: visible;
+}
+#submenu li{
+    float: none;
+    width: 100% !important;   
+}
+#submenu>li>a:hover{
+    padding-left: 10% !important;
+}
+.dropdownmenu ul, .dropdownmenu li{
+    margin: 0;
+    padding: 0;
+
+}
+.dropdownmenu ul{
+    list-style: none;
+    width: 100%;
+}
+.dropdownmenu li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+.dropdownmenu a{
+    display: block;
+    font-weight: 400;
+    font-family: 'Jack';
+    padding: 15px 55px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+.pink{
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding-top: 14%;
+    padding-bottom: 14%;
+}
+.play{
+    width: 11%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    cursor: pointer;
+}
+.play:hover{
+    background-color: #FF2121 !important;
+    transition: .6s ease-in-out;
+}
+.groom{
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.pets{
+    font-weight: 700 !important;
+    font-family: Arial, Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+.Screll{
+    transform: rotate(90deg);
+    margin-top: 18% !important;
+}
+.dash{
+    font-weight: 900 !important;
+}
+.pet-card:hover{
+    border: 1px solid #FF2121 !important;
+    transition: .6s;
+    background-color: white !important;
+    box-shadow: 0 0 10px gainsboro;
+}
+.pet-card:not(:hover){
+    border: none !important;
+    transition: all .6s !important;
+    background-color: #fff7fe !important;
+    box-shadow: none;
+}
+
+.pet-card:hover .dogs-icons>i{
+    color: #ff2121 !important;
+    transition: .7s !important;
+}
+.pet-card:hover .dogs-icons{
+    fill: #ff2121 !important;
+    transition: .7s !important;
+}
+.pet-card:not(:hover) .dogs-icons>i{
+    color: #ff7474 !important;
+    transition: .7s !important;
+}
+.pet-card:hover .pet-head{
+    color: #FF2121;
+    transition: .6s;
+}
+.succ{
+    background-image: url(images/men\ cat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.butn3{
+    border: 3px solid white;
+    cursor: pointer;
+    transition: 0.4s linear;
+    z-index: 1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.butn3:hover{
+    color: #fff !important;
+    border: none !important;
+}
+.butn3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff2121;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    z-index: -1;
+}
+.butn3::before{
+    transform: scaleX(0);
+}
+
+.butn3:hover::before{
+    transform: scaleX(1);
+}
+.parent{
+    height: 70vh;
+}
+.black{
+    display: none;
+}
+.parent:hover .black{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block !important;
+    transition: all .8s !important;
+}
+.bg-one{
+    background-image: url(images/dog\ heartbeat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-two{
+    background-image: url(images/dog\ injection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-three{
+    background-image: url(images/dog\ eat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-four{
+    background-image: url(images/dog\ taste.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent:hover .child{
+    transform: scale(1.1);
+    transition: .8s;
+}
+.parent:not(:hover) .child{
+    transform: scale(1) !important;
+    transition: .8s !important;
+}
+.form:focus{
+    outline: none;
+}
+.doctors:hover .doctors-text{
+    color: white !important;
+    transition: .7s;
+}
+.doctors:hover .doctor-body{
+    background-color: #FF2121 !important;
+    transition: .7s ease-in-out;
+}
+.carousel-circle:focus{
+    background-color: #fff !important;
+}
+.carousel-circle:active{
+    background-color: #fff !important;
+}
+.bg-five{
+    background-image: url(images/men\ dog.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-six{
+    background-image: url(images/injection.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-seven {
+    background-image: url(images/cat.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Date::marker{
+    color: #323c46;
+}
+.parent-1{
+    height: 50vh;
+}
+.child-1{
+    transition: all 1.1s;
+}
+
+.bg-five{
+    background-image: url(images/men\ dog.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-six{
+    background-image: url(images/injection.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-seven{
+    background-image: url(images/cat.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-doctor:hover .child-1{
+    transform: scale(1.1);
+}
+.card-doctor:hover .cdp{
+    color: #FF2121 !important;
+    transition: .7s;
+}
+.phone{
+    background-image: url(images/red\ banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.butn4{
+    border: 3px solid white;
+    cursor: pointer;
+    transition: 0.4s linear;
+    z-index: 1;
+}
+.butn4:hover{
+    color: #fff !important;
+    border: none !important;
+}
+.butn4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    z-index: -1;
+}
+.butn4::before{
+    transform: scaleX(0);
+}
+
+.butn4:hover::before{
+    transform: scaleX(1);
+}
+.footer-li:hover{
+    color: #FF2121 !important;
+    transition: .7s;
+    margin-left: 8%;
+    width: 100%;
+}
